@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-setup"
+version = "0.1.0"
+description = ""
+authors = ["None"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^2.21.0"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
