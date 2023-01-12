@@ -8,6 +8,7 @@ packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+jupytext = "^1.14.4"
 
 
 [tool.poetry.group.dev.dependencies]
